@@ -1,0 +1,53 @@
+body {
+    background-image: url(./assets/landscape-vector-art-vector-minimalism-simple-hd-wallpaper-thumb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    height: 60%;
+    width: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    margin-top: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.6px);
+    -webkit-backdrop-filter: blur(4.6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+
+
+}
+ 
+.cs{
+    padding: 13px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #fff;
+    font-size: 15px;
+    width: 300px;
+    color: black;
+    font-weight: bolder;
+}
+.login{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.button{
+    width:100%;
+}
