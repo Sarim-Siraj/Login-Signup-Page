@@ -6,7 +6,7 @@ function login() {
 
 
     if (email.value === "admin" && passWord.value === "admin") {
-        window.location.href="hello.html"
+        alert("Successfully Login")
 
     }
     else{
