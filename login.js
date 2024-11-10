@@ -1,13 +1,20 @@
 function login() {
     var email = document.getElementById("emaillogin")
     var passWord = document.getElementById("passwordlogin")
+   
+   
 
 
-    if (email === "sarim123@gmail.com" && passWord === "252895") {
-        alert("Succesfully Login")
+    if (email.value === "admin" && passWord.value === "admin") {
+        window.location.href="hello.html"
 
     }
-    else {
-        alert("Worng Password")
+    else{
+        alert("Wrong Password")
+
     }
+
+
+
+   
 }
